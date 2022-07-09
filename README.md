@@ -2,7 +2,7 @@
 ## Self-Supervised Log Parsing Using Semantic Contribution Difference
 
 -Submitted to ISSRE 2022 (The 33rd IEEE International Symposium on Software Reliability Engineering).
-Semlog implementation details will be made public after the paper is published.
+This version of the code contains a lot of debugging statements and is less readable, but the results in the paper can definitely be reproduced according to our instructions
 
 ![image](https://user-images.githubusercontent.com/84389256/171174096-9937a1f6-e41d-4e84-af17-989db07c9399.png)
 
