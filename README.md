@@ -18,7 +18,7 @@ Requirements: python 3.7, pytorch 1.10.1, numpy 1.21.2, scipy 1.7.3, pandas 1.3.
 
 1.pip install pytorch_pretrained_bert
 
-2.download data, and put the models into file "SaveFile&Output/modelsave/" (We are still looking for ways to upload large files)
+2.download data, and put the models into file "SaveFile&Output/modelsave/" (Now, avialiable model (updated): BGL,Proxifier... Model Parameters before update: We are still looking for ways to upload large files) 
 
 3.Run "Semlog/benchmark/Semlog_benchmark.py" to get the results of Semlog directly.
 
