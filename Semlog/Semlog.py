@@ -334,7 +334,7 @@ def makedata(insequence,path):   # data preprocessing
     else:
        print('dataset file not exist')
 
-def getcontentwithoutnumber(input_path, output_path,rgex,choose):      ###########根据日志format 得到日志的content,根据Choose来选择是否保留带数字和/的参数
+def getcontent(input_path, output_path,rgex,choose):      ###########根据日志format 得到日志的content,根据Choose来选择是否保留带数字和/的参数
     lines = open(input_path, encoding='UTF-8')
     line = lines.read()
     lines.close()
