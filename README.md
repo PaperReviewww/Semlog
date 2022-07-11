@@ -3,7 +3,7 @@
 
 -Submitted to ISSRE 2022 (The 33rd IEEE International Symposium on Software Reliability Engineering).
 This version of the code contains a lot of debugging statements and is less readable, but the results in the paper can definitely be reproduced according to our instructions
-## some hyperparameter *（model dimension） was updated, and the accuracy was improved: Proxifier 0.995→ 0.986  BGL 0.961 → 0.955 *（The update will be completed in five days）
+## some hyperparameter *（model dimension） was updated, and the accuracy was improved: Proxifier 0.986→ 0.995  BGL 0.955 → 0.961 *（The update will be completed in five days）
 
 ![image](https://user-images.githubusercontent.com/84389256/171174096-9937a1f6-e41d-4e84-af17-989db07c9399.png)
 
