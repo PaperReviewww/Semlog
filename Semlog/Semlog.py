@@ -11,13 +11,13 @@ import timeit
 tokenizer = BertTokenizer.from_pretrained('../Bert/bert-base-uncased-vocab.txt')
 vocab_size=len(tokenizer.vocab)
 maxlen = 512
-batch_size = 380
+batch_size = 768
 max_pred = 5  # 最大被maksed然后预测的个数 max tokens of prediction
 n_layers = 1  # encoder的层数
 n_heads = 1  # 多头注意力机制头数
-d_model = 768  # 中间层维度
-d_ff = 768 * 4  # 全连接层的维度 4*d_model, FeedForward dimension
-d_k = d_v = 64  # QKV的维度 dimension of K(=Q), V
+d_model = 64  # 中间层维度
+d_ff = 64 * 4  # 全连接层的维度 4*d_model, FeedForward dimension
+d_k = d_v = 32  # QKV的维度 dimension of K(=Q), V
 n_segments = 2  # 一个Batch里面有几个日志语句
 
 
