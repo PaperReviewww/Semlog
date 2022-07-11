@@ -67,7 +67,7 @@ benchmark_settings = {
     'Apache': {
         'log_file': 'Apache',
         'get_content': [r'^.+?\] .+?\] (.+)$'],
-        'delimiter': ['[,!?\\-_=]']
+        'delimiter': ['[,!?=]']
     },
 
     'Proxifier': {
