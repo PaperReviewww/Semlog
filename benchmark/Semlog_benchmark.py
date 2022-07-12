@@ -42,7 +42,7 @@ benchmark_settings = {
     'Zookeeper': {
         'log_file': 'Zookeeper',
         'get_content': [r'^.+?\] - (.+)$'],
-        'delimiter': ['[,!?\\-_=:]']
+        'delimiter': ['[,!?=]']
     },
 
 
