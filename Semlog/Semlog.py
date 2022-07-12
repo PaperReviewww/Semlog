@@ -769,7 +769,7 @@ def Parse_with_scrub(type, rgex,delimiter):  ###########根据日志format 得�
             sentences_group = []
             for i in cluster_group[group]:
                 sentences_group.append(logID[int(i)])
-            if type != 'Proxifier':
+            if True:
                 if os.path.exists('../SaveFiles&Output/modelsave/' + type + '/model' + type + str(group)) == False:
                     if group == 2:
                         for id_t in sentences_group:
@@ -781,10 +781,7 @@ def Parse_with_scrub(type, rgex,delimiter):  ###########根据日志format 得�
                     continue
 
                 model_path = '../SaveFiles&Output/modelsave/' + type + '/model' + type + str(
-                    group)  ###########################模型位置
-
-            else:
-                model_path = '../SaveFiles&Output/modelsave/Proxifier/modelProxifier2'
+                    group)  ###########################模型位
             model = vary_bert("parse", vocab_size).to(device)  # 实例化模型
             model.load_state_dict(torch.load(model_path))
             batch = sentence_process(sentences_group, 'No')
