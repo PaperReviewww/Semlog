@@ -3,7 +3,7 @@
 ## For the parsing accuracy, compared with Uniparser, we are trying our best to make semlog competitive. Compared with the data in our paper, some parameter adjustments have taken place ( model dimension, update will be completed in several days) BGL 0.955→ 0.961  Proxifier 0.986→0.995 HPC 0.856→ 0.898  Zookeeper: 0.967→ 0.988 Mac 0.873→ 0.890 Thunderbird 0.965→ 0.969...
 
 -Submitted to ISSRE 2022 (The 33rd IEEE International Symposium on Software Reliability Engineering).
-This version of the code contains a lot of debugging statements and is less readable, but the results in the paper can definitely be reproduced according to our instructions
+Sorry, I haven't sorted out the code yet. This version of the code contains a lot of debugging statements and is less readable, but the results in the paper can definitely be reproduced according to our instructions
 
 
 ![image](https://user-images.githubusercontent.com/84389256/171174096-9937a1f6-e41d-4e84-af17-989db07c9399.png)
