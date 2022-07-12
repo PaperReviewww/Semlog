@@ -11,7 +11,7 @@ benchmark_settings = {
     'HPC': {
         'log_file': 'HPC',
         'get_content': [r'^.+? .+? .+? .+? .+? .+? (.+)$'],
-        'delimiter': ['[,!?\\-_=]']
+        'delimiter': ['[,!?=]']
     },
 
     'HDFS': {
