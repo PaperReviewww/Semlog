@@ -79,7 +79,7 @@ benchmark_settings = {
     'OpenSSH': {
         'log_file': 'OpenSSH',
         'get_content': [r'^.+?\]: (.+)$'],
-        'delimiter': ['[,!?=\\-:]']
+        'delimiter': ['[,!?=:]']
     },
 
     'OpenStack': {
