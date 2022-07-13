@@ -825,7 +825,7 @@ def Parse_with_scrub(type, rgex,delimiter):  ###########根据日志format 得�
         #end = timeit.default_timer()
         #print('STAGE 2: %s Seconds' % (end - starttime))
         template_set, parse_result = template_Abstraction(group_stage1,type)
-        with open('../SaveFiles&Output/Parseresult/' + str(type) + '/'+str(type)+'benchmark.csv', 'a+', encoding='UTF-8') as f:
+        with open('../SaveFiles&Output/Parseresult/' + str(type) + '/'+str(type)+'benchmark.csv', 'w', encoding='UTF-8') as f:
             for st_res in parse_result:
                 f.write(str(st_res))
                 f.write('\n')
