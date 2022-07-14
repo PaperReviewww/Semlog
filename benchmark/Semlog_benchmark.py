@@ -55,7 +55,7 @@ benchmark_settings = {
     'Android': {
         'log_file': 'Android',
         'get_content': [r'^.+?: (.+)$'],
-        'delimiter': ['[,!?\\-_=:]']
+        'delimiter': ['[,!?=]']
     },
 
     'HealthApp': {
