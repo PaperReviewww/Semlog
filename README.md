@@ -1,6 +1,7 @@
 # Semlog
 ## Self-Supervised Log Parsing Using Semantic Contribution Difference
-## For the parsing accuracy, compared with Uniparser, we are trying our best to make semlog competitive. Compared with the data in our paper, some parameter adjustments have taken place ( model dimension, update will be completed in several days) BGL 0.955→ 0.961  Proxifier 0.986→0.995 HPC 0.856→ 0.898  Zookeeper: 0.967→ 0.988 Mac 0.873→ 0.890 Thunderbird 0.965→ 0.969...
+## The update has been completed. You can get the experimental results in a few simple steps
+# For the parsing accuracy, compared with Uniparser, we are trying our best to make semlog competitive. Compared with the data in our paper, some parameter adjustments have taken place ( model dimension, update will be completed in several days) BGL 0.955→ 0.961  Proxifier 0.986→0.995 HPC 0.856→ 0.898  Zookeeper: 0.967→ 0.988 Mac 0.873→ 0.890 Thunderbird 0.965→ 0.969...
 
 
 -Submitted to ISSRE 2022 (The 33rd IEEE International Symposium on Software Reliability Engineering).
