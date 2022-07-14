@@ -1,7 +1,7 @@
 # Semlog
 ## Self-Supervised Log Parsing Using Semantic Contribution Difference
 ## For the parsing accuracy, compared with Uniparser, we are trying our best to make semlog competitive. Compared with the data in our paper, some parameter adjustments have taken place ( model dimension, update will be completed in several days) BGL 0.955→ 0.961  Proxifier 0.986→0.995 HPC 0.856→ 0.898  Zookeeper: 0.967→ 0.988 Mac 0.873→ 0.890 Thunderbird 0.965→ 0.969...
-Model waiting to be updated: OpenStack, Android. Others available
+
 
 -Submitted to ISSRE 2022 (The 33rd IEEE International Symposium on Software Reliability Engineering).
 Sorry, I haven't sorted out the code yet. This version of the code contains a lot of debugging statements and is less readable, but the results in the paper can definitely be reproduced according to our instructions
@@ -20,11 +20,9 @@ Requirements: python 3.7, pytorch 1.10.1, numpy 1.21.2, scipy 1.7.3, pandas 1.3.
 
 1.pip install pytorch_pretrained_bert
 
-(If you skip to step 3 directly, only 12 updated models for corresponding dataset are available now)2.download data, and put the models into file "SaveFile&Output/modelsave/" (We are still looking for ways to upload large files, the old model is large, model dimension:768) 
+2.Run "Semlog/benchmark/Semlog_benchmark.py" to get the results of Semlog directly.
 
-3.Run "Semlog/benchmark/Semlog_benchmark.py" to get the results of Semlog directly.
-
-4.Run "logparsers/*.py" to reproduce results of existing parsers
+3.Run "logparsers/*.py" to reproduce results of existing parsers
 
 The existing parser code reproduced in this paper relies on [LogPai](https://github.com/logpai).
 
